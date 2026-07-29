@@ -1332,3 +1332,86 @@ section{ padding: 100px 0; }
   .story-scroll-img{ transition: opacity .3s linear; transform: none !important; }
   .story-step{ opacity: 1; filter: none; transform: none; }
 }
+
+/* =========================================================
+   MOBILE RESPONSIVENESS — additional pass
+   Tightens spacing/scale on tablet & phone widths that the
+   per-component rules above didn't fully cover.
+========================================================= */
+
+/* ---- tablet & below (≤880px): general rhythm ---- */
+@media (max-width: 880px){
+  section{ padding: 64px 0; }
+  .page-hero{ padding: 56px 0 60px; }
+  .story-scroll{ padding: 40px 0 10px; }
+  .cta-band{ padding: 48px 30px; }
+  .cta-band h2{ font-size: clamp(1.7rem, 5vw, 2.4rem); }
+  .footer-grid{ gap: 30px; margin-bottom: 36px; }
+  .site-footer{ padding: 54px 0 26px; }
+}
+
+/* ---- small tablet / large phone (≤640px) ---- */
+@media (max-width: 640px){
+  .container{ padding: 0 20px; }
+  section{ padding: 52px 0; }
+  .section-head{ margin-bottom: 40px; }
+  .devotion-photo-wrap{ height: 300px; }
+  .stat-chip{ padding: 12px 16px; }
+  .stat-chip strong{ font-size: 1.35rem; }
+  .marquee-track{ gap: 34px; }
+  .marquee-track span{ font-size: 1.05rem; gap: 34px; }
+  .marquee-track span::after{ margin-left: 34px; }
+  .hero-monk-emblem{ width: 118px; height: 118px; bottom: -32px; }
+  .singing-bowl{ width: 62px; }
+  .bowl-mallet{ width: 28px; right: 14px; }
+  .story-step h3{ font-size: clamp(1.4rem, 5vw, 1.9rem); }
+  .schedule-row:hover{ padding-left: 0; }
+  .info-strip{ gap: 14px; }
+  .info-chip{ flex: 1 1 100%; }
+}
+
+/* ---- phones (≤480px): final tightening ---- */
+@media (max-width: 480px){
+  .container{ padding: 0 18px; }
+  section{ padding: 44px 0; }
+  .page-hero{ padding: 44px 0 44px; }
+  .page-hero h1{ font-size: clamp(2rem, 9vw, 2.6rem); }
+
+  .hero-split-grid{ padding: 108px 18px 64px; gap: 44px; }
+  .hero-split-text h1{ font-size: clamp(2.1rem, 9.5vw, 2.7rem); }
+  .hero-split-sub{ font-size: 1rem; }
+  .hero-split-ctas{ flex-direction: column; align-items: stretch; }
+  .hero-split-ctas .btn{ width: 100%; }
+  .hero-monk-emblem{ width: 96px; height: 96px; bottom: -26px; }
+  .singing-bowl{ width: 52px; }
+  .bowl-mallet{ width: 22px; right: 10px; }
+
+  .btn{ padding: 12px 22px; font-size: 0.86rem; }
+
+  .stat-strip-photo{ width: 68px; height: 68px; }
+  .stat-strip-num strong{ font-size: 2rem; }
+
+  .devotion-watermark{ font-size: clamp(2.4rem, 18vw, 5rem); }
+  .devotion-photo-wrap{ height: 240px; margin-bottom: 24px; }
+
+  .photo-band{ min-height: 44vh; }
+  .photo-band h2{ font-size: clamp(2rem, 12vw, 3.2rem); }
+
+  .card{ padding: 26px 22px; }
+
+  .quote-float{ position: static; width: 100%; margin: 18px 0 0; }
+  .art-panel{ aspect-ratio: 4 / 4; }
+
+  .cta-band{ padding: 40px 22px; border-radius: var(--radius-md); }
+  .cta-band .btn{ width: 100%; }
+  .cta-ring{ display: none; }
+
+  .footer-bottom{ flex-direction: column; align-items: flex-start; gap: 16px; }
+
+  .team-photo{ width: 96px; height: 96px; }
+
+  .retreat-card .price{ font-size: 1.8rem; }
+
+  .story-step{ min-height: auto; padding: 24px 0; }
+  .story-scroll-visual{ top: 70px; }
+}
