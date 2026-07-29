@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Visit Us — Saraṇa Meditation Center</title>
+<meta name="description" content="Plan your visit, book a session, or ask a question — get in touch with Saraṇa Meditation Center in Kandy, Sri Lanka.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,500;0,600;1,500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="preloader" aria-hidden="true">
+  <div class="preloader-mark">
+    <div class="preloader-ring"></div>
+    <div class="preloader-bud"></div>
+  </div>
+  <span class="preloader-word">Sara<b>ṇa</b></span>
+</div>
+<div class="cursor-dot" id="cursorDot" aria-hidden="true"></div>
+
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a href="index.html" class="logo">Sara<span>ṇa</span></a>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Programs</a>
+      <a href="retreats.html">Retreats</a>
+      <a href="contact.html">Visit Us</a>
+    </nav>
+    <a href="contact.html" class="btn btn-primary nav-cta">Book a Session</a>
+    <button class="nav-toggle" aria-label="Toggle menu"><span></span></button>
+  </div>
+</header>
+
+<main>
+
+  <section class="page-hero">
+    <div class="container">
+      <p class="eyebrow">Visit Us</p>
+      <h1 data-edit-key="contact_h1">Plan your visit to the hillside.</h1>
+      <p>Send us a note with your preferred dates and we'll reply within a day with availability and directions.</p>
+    </div>
+  </section>
+
+  <!-- ============ PHOTO BAND ============ -->
+  <section class="photo-band" style="background-image:url('images/download (1).jpeg')">
+    <div class="photo-band-scrim"></div>
+    <h2 data-edit-key="contact_h2_intro">You'll Be Welcomed, Not Rushed</h2>
+  </section>
+
+  <section>
+    <div class="container split">
+
+      <div class="reveal">
+        <form id="contact-form" class="form-grid">
+          <div class="row-2">
+            <div class="field">
+              <label for="name">Full name</label>
+              <div class="field-input-wrap">
+                <svg class="field-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-7 8-7s8 2.6 8 7"/></svg>
+                <input id="name" name="name" type="text" placeholder="Your name" required>
+              </div>
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <div class="field-input-wrap">
+                <svg class="field-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+                <input id="email" name="email" type="email" placeholder="you@example.com" required>
+              </div>
+            </div>
+          </div>
+          <div class="row-2">
+            <div class="field">
+              <label for="program">I'm interested in</label>
+              <div class="field-input-wrap">
+                <svg class="field-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 21c-5-1.5-8-5.5-8-10 0-2 1.3-3.3 2.6-3.3 1 0 1.8.8 2 1.8.4-1.9 1.9-3.2 3.4-3.2s3 1.3 3.4 3.2c.2-1 1-1.8 2-1.8C18.7 7.7 20 9 20 11c0 4.5-3 8.5-8 10z"/></svg>
+                <select id="program" name="program">
+                  <option>A single daily session</option>
+                  <option>Reset Weekend retreat</option>
+                  <option>Deep Stillness Retreat (5 days)</option>
+                  <option>Long Silent Retreat (10 days)</option>
+                  <option>Corporate mindfulness</option>
+                </select>
+              </div>
+            </div>
+            <div class="field">
+              <label for="dates">Preferred dates</label>
+              <div class="field-input-wrap">
+                <svg class="field-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M8 3v4M16 3v4M3 10h18"/></svg>
+                <input id="dates" name="dates" type="text" placeholder="e.g. 12–14 August">
+              </div>
+            </div>
+          </div>
+          <div class="field">
+            <label for="phone">Phone number</label>
+            <div class="field-input-wrap phone-input-wrap">
+              <svg class="field-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .3 2 .7 3a2 2 0 0 1-.4 2.1L8 10.3a16 16 0 0 0 6 6l1.5-1.5a2 2 0 0 1 2.1-.4c1 .4 2 .6 3 .7a2 2 0 0 1 1.7 2z"/></svg>
+              <select id="country-code" name="country_code" class="country-code-select" aria-label="Country code">
+                <option value="+94" selected>🇱🇰 +94</option>
+                <option value="+1">🇺🇸 +1</option>
+                <option value="+44">🇬🇧 +44</option>
+                <option value="+61">🇦🇺 +61</option>
+                <option value="+91">🇮🇳 +91</option>
+                <option value="+92">🇵🇰 +92</option>
+                <option value="+880">🇧🇩 +880</option>
+                <option value="+65">🇸🇬 +65</option>
+                <option value="+60">🇲🇾 +60</option>
+                <option value="+66">🇹🇭 +66</option>
+                <option value="+63">🇵🇭 +63</option>
+                <option value="+62">🇮🇩 +62</option>
+                <option value="+81">🇯🇵 +81</option>
+                <option value="+82">🇰🇷 +82</option>
+                <option value="+86">🇨🇳 +86</option>
+                <option value="+971">🇦🇪 +971</option>
+                <option value="+966">🇸🇦 +966</option>
+                <option value="+974">🇶🇦 +974</option>
+                <option value="+49">🇩🇪 +49</option>
+                <option value="+33">🇫🇷 +33</option>
+                <option value="+39">🇮🇹 +39</option>
+                <option value="+34">🇪🇸 +34</option>
+                <option value="+31">🇳🇱 +31</option>
+                <option value="+41">🇨🇭 +41</option>
+                <option value="+46">🇸🇪 +46</option>
+                <option value="+47">🇳🇴 +47</option>
+                <option value="+64">🇳🇿 +64</option>
+                <option value="+27">🇿🇦 +27</option>
+                <option value="+55">🇧🇷 +55</option>
+              </select>
+              <span class="phone-divider" aria-hidden="true"></span>
+              <input id="phone" name="phone" type="tel" placeholder="77 123 4567" inputmode="tel" pattern="[0-9 ()+-]{6,20}">
+            </div>
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <div class="field-input-wrap field-input-wrap-area">
+              <svg class="field-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 11.5a8.4 8.4 0 0 1-8.4 8.4 8.3 8.3 0 0 1-3.8-.9L3 21l1.9-5.8a8.3 8.3 0 0 1-.9-3.8A8.4 8.4 0 0 1 12.5 3a8.4 8.4 0 0 1 8.5 8.5z"/></svg>
+              <textarea id="message" name="message" placeholder="Tell us a little about your experience with meditation, if any."></textarea>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary btn-submit">
+            <span class="btn-submit-label">Send Message</span>
+            <svg class="btn-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5l5 5L20 6"/></svg>
+          </button>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+
+      <div class="reveal">
+        <div class="map-panel">
+          <div class="map-ping"></div>
+          <div class="map-ping map-ping-two"></div>
+          <div class="map-pin"></div>
+        </div>
+        <div class="info-strip reveal-stagger">
+          <div class="info-chip reveal r-item">
+            <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 21s-7-4.5-7-10a7 7 0 0 1 14 0c0 5.5-7 10-7 10z"/><circle cx="12" cy="11" r="2.4"/></svg></div>
+            <div><h4>Address</h4><p>Galahitiyawa Road, Kandy Hills, Central Province, Sri Lanka</p></div>
+          </div>
+          <div class="info-chip reveal r-item">
+            <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .3 2 .7 3a2 2 0 0 1-.4 2.1L8 10.3a16 16 0 0 0 6 6l1.5-1.5a2 2 0 0 1 2.1-.4c1 .4 2 .6 3 .7a2 2 0 0 1 1.7 2z"/></svg></div>
+            <div><h4>Phone / WhatsApp</h4><p>+94 81 234 5678</p></div>
+          </div>
+          <div class="info-chip reveal r-item">
+            <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></div>
+            <div><h4>Email</h4><p>hello@saranameditation.lk</p></div>
+          </div>
+          <div class="info-chip reveal r-item">
+            <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg></div>
+            <div><h4>Reception hours</h4><p>Daily, 6:00 AM – 8:00 PM (Sri Lanka time)</p></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section-alt">
+    <div class="container">
+      <div class="section-head left">
+        <p class="eyebrow">Getting Here</p>
+        <h2>From Kandy town</h2>
+      </div>
+      <div class="grid grid-3 reveal-stagger">
+        <div class="card reveal r-item">
+          <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="9" width="18" height="9" rx="2"/><path d="M7 9V6a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v3M7 15h.01M17 15h.01"/></svg></div>
+          <h3>By car</h3>
+          <p>About 35 minutes from Kandy town center; parking is available on-site.</p>
+        </div>
+        <div class="card reveal r-item">
+          <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="4" y="3" width="16" height="14" rx="2"/><path d="M4 12h16M8 21l2-4h4l2 4"/></svg></div>
+          <h3>By tuk-tuk or taxi</h3>
+          <p>Easily arranged from Kandy railway station; ask for "Galahitiyawa Road, near the tea estate."</p>
+        </div>
+        <div class="card reveal r-item">
+          <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 20V10a8 8 0 0 1 16 0v10M4 20h16M9 20v-4a3 3 0 0 1 6 0v4"/></svg></div>
+          <h3>Airport pickup</h3>
+          <p>On request for retreats of 5 nights or longer — mention it in your message.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a href="index.html" class="logo">Sara<span>ṇa</span></a>
+        <p class="mt-40" style="margin-top:18px;max-width:260px;">A meditation and mindfulness retreat center in the hills above Kandy, Sri Lanka.</p>
+      </div>
+      <div>
+        <h5>Explore</h5>
+        <a href="about.html">About Us</a>
+        <a href="services.html">Programs</a>
+        <a href="retreats.html">Retreats</a>
+        <a href="contact.html">Visit Us</a>
+      </div>
+      <div>
+        <h5>Practice</h5>
+        <a href="services.html">Guided Sitting</a>
+        <a href="services.html">Yoga & Movement</a>
+        <a href="services.html">Sound Healing</a>
+        <a href="services.html">Walking Meditation</a>
+      </div>
+      <div>
+        <h5>Visit</h5>
+        <li>Galahitiyawa Road, Kandy Hills</li>
+        <li>Central Province, Sri Lanka</li>
+        <li>+94 81 234 5678</li>
+        <li>hello@saranameditation.lk</li>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> Saraṇa Meditation Center. All rights reserved.</span>
+      <div class="footer-social">
+        <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></a>
+        <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M15 3h-2a5 5 0 0 0-5 5v2H6v4h2v7h4v-7h3l1-4h-4V8a1 1 0 0 1 1-1h3z"/></svg></a>
+        <a href="#" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="2" y="6" width="20" height="12" rx="3"/><path d="M10 9.5l5 2.5-5 2.5z"/></svg></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
