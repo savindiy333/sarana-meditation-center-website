@@ -53,7 +53,7 @@
   width: 20px; height: 34px;
   background: linear-gradient(160deg, var(--gold), var(--gold-deep));
   border-radius: 60% 60% 18% 18%;
-  box-shadow: 0 0 22px rgba(217,164,65,0.45);
+  box-shadow: 0 0 22px #d9a44173;
   animation: preloaderPulse 1.5s ease-in-out infinite;
 }
 .preloader-ring{
